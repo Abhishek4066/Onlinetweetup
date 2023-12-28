@@ -51,7 +51,7 @@ public class TweetupCon
 	@Autowired(required=true)
   // private DrPaymentRepository DPR;//
 	
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String one()
 	{
 		return "index"; //index jsp
